@@ -1,0 +1,61 @@
+.container {
+  margin: 30px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 10px;
+  scroll-behavior: smooth;
+}
+.filterWrapper {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+.tableWrapper {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+form .form-heading {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+}
+
+form button {
+  margin-bottom: 10px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .filterWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .tableWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btnWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
